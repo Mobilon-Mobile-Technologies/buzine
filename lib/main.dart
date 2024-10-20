@@ -1,3 +1,4 @@
+import 'package:buzine/pages/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:buzine/pages/home_page.dart';
 import 'package:buzine/pages/profile_page.dart';
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         '/home_page': (context) => const HomePage(),
         '/profile_page': (context) => const ProfilePage(),
       },
-      home: const HomePage(), // Directly set HomePage as the home
+      home: const SplashScreen(), // Directly set HomePage as the home
     );
   }
 }
