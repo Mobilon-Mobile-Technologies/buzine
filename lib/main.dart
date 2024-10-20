@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       routes: {
         '/home_page': (context) => const HomePage(),
-        '/profile_page': (context) => ProfilePage(),
+        '/profile_page': (context) => const ProfilePage(),
       },
-      home: HomePage(), // Directly set HomePage as the home
+      home: const HomePage(), // Directly set HomePage as the home
     );
   }
 }

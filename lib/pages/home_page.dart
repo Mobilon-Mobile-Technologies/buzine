@@ -124,9 +124,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       Navigator.pushNamed(context, '/home_page');
                       print('Home button pressed');
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       FontAwesomeIcons.house,
-                      color: const Color(0xFFffcc28),
+                      color: Color(0xFFffcc28),
                     ),
                     label: const Text(''), // Empty label for spacing
                   ),
@@ -137,9 +137,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       // Handle search button press action
                       print('Search button pressed');
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       FontAwesomeIcons.magnifyingGlass,
-                      color: const Color(0xFFffcc28),
+                      color: Color(0xFFffcc28),
                     ),
                     label: const Text(''), // Empty label for spacing
                   ),
@@ -150,9 +150,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       // Handle plus button press action
                       print('Plus button pressed');
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       FontAwesomeIcons.plus,
-                      color: const Color(0xFFffcc28),
+                      color: Color(0xFFffcc28),
                     ),
                     label: const Text(''), // Empty label for spacing
                   ),
@@ -163,9 +163,9 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       // Handle bookmark button press action
                       print('Bookmark button pressed');
                     },
-                    icon: Icon(
+                    icon: const Icon(
                       CupertinoIcons.bookmark,
-                      color: const Color(0xFFffcc28),
+                      color: Color(0xFFffcc28),
                     ),
                     label: const Text(''), // Empty label for spacing
                   ),
