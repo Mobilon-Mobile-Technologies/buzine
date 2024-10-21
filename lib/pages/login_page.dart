@@ -144,7 +144,7 @@ class LoginPage extends StatelessWidget {
               top: 15,
               right: 115,
               child: Image.asset(
-                'assets/logo/buzine_logo.png',
+                'assets/logo.png',
                 height: 150,
                 width: 150,
               ),
