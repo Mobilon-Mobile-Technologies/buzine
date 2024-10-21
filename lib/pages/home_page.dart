@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                   children: [
                     // App logo (replace with your actual logo widget)
                     Image.asset(
-                      'assets/logo.png',
+                      'assets/images/logo.png',
                       height: 40, // Adjust height as needed
                     ),
 
